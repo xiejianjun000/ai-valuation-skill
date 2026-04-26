@@ -19,11 +19,15 @@
     "ai-valuation": "./bin/ai-valuation"
   },
   "scripts": {
+    "build": "tsc",
+    "start": "node bin/ai-valuation help",
     "test": "node examples/basic-score.js"
   },
   "files": [
-    "src/",
+    "dist/",
     "bin/",
-    "examples/"
-  ]
+    "examples/",
+    "docs/"
+  ],
+  "types": "dist/scoring.d.ts"
 }
