@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 项目身价计算器</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a0a;color:#e0e0e0;line-height:1.6}
+.hero{min-height:80vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;background:linear-gradient(135deg,#0a0a0a 0%,#1a1a2e 50%,#16213e 100%)}
+.hero h1{font-size:3rem;margin-bottom:.5rem;background:linear-gradient(135deg,#f093fb,#f5576c);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero .subtitle{font-size:1.2rem;color:#888;margin-bottom:2rem}
+.btn{display:inline-block;padding:.8rem 2rem;border-radius:8px;text-decoration:none;font-weight:600;margin:.5rem}
+.btn-primary{background:linear-gradient(135deg,#f093fb,#f5576c);color:#fff}
+.btn-secondary{border:2px solid #f093fb;color:#f093fb}
+.stages{max-width:800px;margin:4rem auto;padding:0 2rem;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.stage{background:#111;padding:2rem;border-radius:12px;text-align:center;border:1px solid #222}
+.stage h3{color:#f093fb;margin-bottom:.5rem}
+.stage .mult{font-size:2rem;font-weight:700;color:#f5576c}
+.stage .range{color:#888;font-size:.85rem;margin-top:.5rem}
+footer{text-align:center;padding:2rem;color:#555;border-top:1px solid #222}
+@media(max-width:768px){.stages{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:2rem}}
+</style>
+</head>
+<body>
+<section class="hero">
+<h1>📊 AI 项目身价计算器</h1>
+<div class="subtitle">从 PoC 到 Beta，估值有据可查</div>
+<a href="https://github.com/xiejianjun000/ai-valuation-skill" class="btn btn-primary">⭐ Star on GitHub</a>
+<a href="https://github.com/xiejianjun000/ai-valuation-skill#readme" class="btn btn-secondary">📖 文档</a>
+</section>
+<section class="stages">
+<div class="stage"><h3>PoC</h3><div class="mult">×1.0</div><div class="range">100-500 万</div></div>
+<div class="stage"><h3>Alpha</h3><div class="mult">×3.0</div><div class="range">300-1500 万</div></div>
+<div class="stage"><h3>Beta</h3><div class="mult">×6.0</div><div class="range">600-3000 万</div></div>
+<div class="stage"><h3>GA</h3><div class="mult">×10.0</div><div class="range">1000-5000 万</div></div>
+</section>
+<footer><p>© 2026 AI Valuation Skill · MIT License · <a href="https://github.com/xiejianjun000/ai-valuation-skill" style="color:#f093fb">GitHub</a></p></footer>
+</body>
+</html>
