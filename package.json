@@ -1,0 +1,29 @@
+{
+  "name": "ai-valuation-skill",
+  "version": "0.1.0",
+  "description": "AI \u9879\u76ee\u8eab\u4ef7\u8ba1\u7b97\u5668 - \u57fa\u4e8e PoC/Alpha/Beta/GA \u56db\u7ea7\u4f30\u503c\u6a21\u578b",
+  "keywords": [
+    "ai-valuation",
+    "startup-valuation",
+    "scoring",
+    "bagua"
+  ],
+  "author": "Junge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiejianjun000/ai-valuation-skill"
+  },
+  "license": "MIT",
+  "main": "src/scoring.js",
+  "bin": {
+    "ai-valuation": "./bin/ai-valuation"
+  },
+  "scripts": {
+    "test": "node examples/basic-score.js"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "examples/"
+  ]
+}

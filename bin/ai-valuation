@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+const path = require('path');
+try {
+  const { scoreProject, baguaScore } = require(path.join(__dirname, '../src/scoring.js'));
+  // For JS users, the scoring module
+} catch(e) {}
+
+function usage() {
+  console.log('📊 AI Valuation Skill - AI 项目身价计算器\n');
+  console.log('用法:');
+  console.log('  ai-valuation score --tech 80 --docs 90 --innovation 70 --feasibility 60 --eco 50');
+  console.log('  ai-valuation bagua --乾 80 --坤 70 --震 90 --巽 60 --坎 75 --离 85 --艮 70 --兑 65');
+  console.log('  ai-valuation stages');
+  console.log('  ai-valuation version');
+}
+
+const args = process.argv.slice(2);
+const cmd = args[0];
+
+if (!cmd || cmd === 'help') { usage(); }
+else if (cmd === 'version') { console.log('ai-valuation-skill v0.1.0'); }
+else if (cmd === 'stages') {
+  console.log('项目阶段估值体系:\n');
+  console.log('  PoC (概念验证): 基础分 × 1.0  (100-500 万)');
+  console.log('  Alpha (内测):    基础分 × 3.0  (300-1500 万)');
+  console.log('  Beta (公测):     基础分 × 6.0  (600-3000 万)');
+  console.log('  GA (正式发布):   基础分 × 10.0 (1000-5000 万)');
+}
+else { console.error('未知命令: ' + cmd); usage(); process.exit(1); }
