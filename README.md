@@ -1,5 +1,11 @@
 # 📊 AI项目身价密码：从PoC到Beta，估值有据可查
 
+[![npm version](https://img.shields.io/badge/npm-v0.1.0-blue)](https://www.npmjs.com/package/ai-valuation-skill)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/xiejianjun000/ai-valuation-skill?style=social)](https://github.com/xiejianjun000/ai-valuation-skill/stargazers)
+[![Good First Issues](https://img.shields.io/github/issues/xiejianjun000/ai-valuation-skill/good%20first%20issue)](https://github.com/xiejianjun000/ai-valuation-skill/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+
 ## 让早期项目估值不再靠猜
 
 ---
