@@ -259,3 +259,16 @@ ai-valuation/
 **让早期项目估值不再靠猜，让每个创业者都能说清楚：我的项目值多少钱。**
 
 🀄 AI项目估值Skill，陪你走过创业的第一步。
+
+---
+
+## 🌐 生态系统
+
+AI Valuation Skill 是 **OpenTaiji 生态** 的核心组件：
+
+| 项目 | 说明 | 链接 |
+|------|------|------|
+| **OpenTaiji** | 分布式多智能体协作引擎 | [open-taiji](https://github.com/xiejianjun000/open-taiji) |
+| **TriTai** | 零 Token 防幻觉引擎 | [tritai](https://github.com/xiejianjun000/tritai) |
+| **Taiji Agent** | 太极智能体框架 | [taiji-agent](https://github.com/xiejianjun000/taiji-agent) |
+| **AI Valuation** | AI 项目身价计算器（本项目） | — |
