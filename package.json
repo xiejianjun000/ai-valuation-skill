@@ -1,7 +1,7 @@
 {
   "name": "ai-valuation-skill",
   "version": "0.1.0",
-  "description": "AI \u9879\u76ee\u8eab\u4ef7\u8ba1\u7b97\u5668 - \u57fa\u4e8e PoC/Alpha/Beta/GA \u56db\u7ea7\u4f30\u503c\u6a21\u578b",
+  "description": "AI 项目身价计算器 - 基于 PoC/Alpha/Beta/GA 四级估值模型",
   "keywords": [
     "ai-valuation",
     "startup-valuation",
@@ -21,7 +21,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node bin/ai-valuation help",
-    "test": "node examples/basic-score.js"
+    "test": "npm run build && node examples/basic-score.js"
   },
   "files": [
     "dist/",
@@ -29,5 +29,8 @@
     "examples/",
     "docs/"
   ],
-  "types": "dist/scoring.d.ts"
+  "types": "dist/scoring.d.ts",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
