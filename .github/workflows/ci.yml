@@ -11,7 +11,7 @@ jobs:
           node-version: '22'
 
       - name: 安装依赖
-        run: npm ci || npm install
+        run: npm install --legacy-peer-deps || npm install
 
       - name: 安装 TypeScript
         run: npm install --save-dev typescript
